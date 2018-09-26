@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:textColor="#063852"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   pick and go"
+        android:textColor="#063852"
+        android:textAllCaps="true"
+        android:textSize="34dp"
+        android:layout_marginLeft="64dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/appicons" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Ride share provides the most economical car service.
+we use an algoritham which compares the fare of ride sharing org,
+It orders a ride which is more economical,
+faster and comfortable"
+        android:textColor="#063852"
+        android:textSize="14dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact:              help.desk@RideShare.com "
+        android:layout_margin="16dp"
+        android:textColor="#063852"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="address:              324 west 23 st 2nd av, ny 100013"
+        android:layout_margin="16dp"
+        android:textColor="#063852"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="office hours:     mon-fri 8:00 am to 8:00 pm
+                             sat-sun 9:00am to 4:30pm"
+        android:layout_margin="16dp"
+        android:textColor="#063852"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:background="#90afc5"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="120dp"
+            android:text="sign in"
+            android:background="#90afc5"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
