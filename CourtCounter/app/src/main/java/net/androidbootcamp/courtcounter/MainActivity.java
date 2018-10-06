@@ -28,4 +28,16 @@ public class MainActivity extends AppCompatActivity {
     public void IncrementScoreB(View view){
         scoreB=scoreB+1;
         displayA(scoreB);}
+    public void IncrementScoreA2(View view){
+        scoreA=scoreA+2;
+        displayA(scoreA);}
+    public void IncrementScoreB2(View view){
+        scoreB=scoreB+2;
+        displayA(scoreB);}
+    public void IncrementScoreA3(View view){
+        scoreA=scoreA+3;
+        displayA(scoreA);}
+    public void IncrementScoreB3(View view){
+        scoreB=scoreB+3;
+        displayA(scoreB);}
 }
