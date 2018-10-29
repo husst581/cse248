@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/app_dashboard" />
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_trending_up_black_24dp"
+            android:title="@string/app_Upload" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/app_Setting" />
+
+    </group>
+
+    <item android:title="@string/app_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_people_black_24dp"
+                android:title="@string/app_help" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/app_share" />
+        </menu>
+    </item>
+
+</menu>

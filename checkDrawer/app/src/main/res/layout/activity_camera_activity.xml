@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".camera_activity">
+
+    <Button
+        android:id="@+id/uploadBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:text="Upload Ebook"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/uploadBook"
+        android:layout_marginBottom="-131dp"
+        android:paddingLeft="18dp"
+        android:text="All the upload ebooks will be displayed in the dashboard and can be accessed anytime being offline, just select and enjoy VoiceBook"
+        android:textSize="17dp" />
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/float_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="#453"
+            app:srcCompat="@drawable/ic_home_black_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/float_dashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="#453"
+            app:srcCompat="@drawable/ic_dashboard_black_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/float_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="#453"
+            app:srcCompat="@drawable/ic_exit_to_app_black_24dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
